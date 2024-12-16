@@ -1,0 +1,19 @@
+@host = http://localhost:3000
+
+### Register
+post {{host}}/register
+Content-Type: application/json
+
+{
+  "username": "fakeuser",
+  "password": "fakeuser"
+}
+
+### Login
+post {{host}}/login
+Content-Type: application/json
+
+{
+  "username": "fakeuser",
+  "password": "fakeuser"
+}

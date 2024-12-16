@@ -28,7 +28,7 @@ model Order {
   customer User @relation(fields: [customerId], references: [id])
   customerId Int 
 
-  Items Product []
+  items Product []
 }
 
 model Product {
